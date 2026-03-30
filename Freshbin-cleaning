@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FreshBin Cleaning</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+    }
+
+    header {
+      background: linear-gradient(90deg, #00c6ff, #0072ff);
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #222;
+    }
+
+    nav a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      background: #00c6ff;
+    }
+
+    section {
+      padding: 40px;
+      text-align: center;
+    }
+
+    .hero {
+      background: url('https://images.unsplash.com/photo-1581578731548-c64695cc6952') no-repeat center/cover;
+      color: white;
+      padding: 80px 20px;
+    }
+
+    .btn {
+      background: #0072ff;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    .gallery img {
+      width: 250px;
+      margin: 10px;
+      border-radius: 10px;
+    }
+
+    .pricing {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      width: 250px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>FreshBin Cleaning</h1>
+  <p>Keep Your Trash Bins Clean & Bug-Free</p>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#shop">Pricing</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="home" class="hero">
+  <h2>Professional Trash Bin Power Washing</h2>
+  <p>We eliminate odors, bacteria, and bugs fast.</p>
+  <button class="btn">Book Now</button>
+</section>
+
+<section id="gallery">
+  <h2>Before & After</h2>
+  <div class="gallery">
+    <img src="https://images.unsplash.com/photo-1595079676601-f1adf1b3e5f2">
+    <img src="https://images.unsplash.com/photo-1604187351574-c75ca79f5807">
+    <img src="https://images.unsplash.com/photo-1581091870627-3c4c3d0c4c79">
+  </div>
+</section>
+
+<section id="shop">
+  <h2>Pricing</h2>
+  <div class="pricing">
+    <div class="card">
+      <h3>Single Clean</h3>
+      <p>$10 per bin</p>
+    </div>
+    <div class="card">
+      <h3>Monthly Plan</h3>
+      <p>$25/month</p>
+    </div>
+    <div class="card">
+      <h3>Bulk Discount</h3>
+      <p>Call for pricing</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p>Call or text: (Your Number Here)</p>
+  <p>Email: your@email.com</p>
+</section>
+
+<footer>
+  <p>© 2026 FreshBin Cleaning</p>
+</footer>
+
+</body>
+</html>
